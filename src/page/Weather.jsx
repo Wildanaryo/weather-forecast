@@ -30,7 +30,7 @@ export default function Weather() {
           <input
             type="text"
             value={place}
-            placeholder="Input Your City"
+            placeholder="Search for cities"
             className="bg-sky-200 h-full w-full rounded-lg p-2 placeholder-text-sky-800 placeholder-text-2xl focus:outline-none focus:ring focus:ring-sky-700 text-2xl"
             onChange={handleInputPlace}
           />
