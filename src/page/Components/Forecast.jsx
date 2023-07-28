@@ -63,7 +63,7 @@ export default function Forecast() {
                   <div
                     key={index}
                     className={`p-2 space-y-2 w-full border-t-2 flex ${
-                      index === 39 ? "border-b-2" : ""
+                      index === 32 ? "border-b-2" : ""
                     } `}
                   >
                     <div className="grid grid-cols-1 w-full">
