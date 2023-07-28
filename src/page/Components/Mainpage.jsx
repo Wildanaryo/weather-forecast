@@ -25,7 +25,7 @@ export default function Mainpage() {
   const getWeatherData = async () => {
     try {
       const geoResponse = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=5&appid=${apiKey}`
+        `https://api.openweathermap.org/geo/1.0/direct?q=${search}&limit=5&appid=${apiKey}`
       );
 
       if (geoResponse.data.length > 0) {
