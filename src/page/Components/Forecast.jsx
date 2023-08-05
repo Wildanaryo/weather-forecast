@@ -69,7 +69,7 @@ export default function Forecast() {
                     <div className="grid grid-cols-1 w-full">
                       <div className="flex justify-between items-center">
                         {index === 0 ? (
-                          <div>{"Today"}</div>
+                          <div>Today</div>
                         ) : (
                           <div>{dayForecast(item.dt_txt)}</div>
                         )}
