@@ -68,7 +68,12 @@ export default function Forecast() {
                   >
                     <div className="grid grid-cols-1 w-full">
                       <div className="flex justify-between items-center">
-                        <div>{dayForecast(item.dt_txt)}</div>
+                        {index === 0 ? (
+                          <div>{"Today"}</div>
+                        ) : (
+                          <div>{dayForecast(item.dt_txt)}</div>
+                        )}
+
                         <div className="flex gap-1 justify-center items-center">
                           <div className="w-24">
                             {imageWeather(item.weather[0].main)}
