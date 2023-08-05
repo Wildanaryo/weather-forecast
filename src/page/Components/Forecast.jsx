@@ -73,7 +73,6 @@ export default function Forecast() {
                         ) : (
                           <div>{dayForecast(item.dt_txt)}</div>
                         )}
-
                         <div className="flex gap-1 justify-center items-center">
                           <div className="w-24">
                             {imageWeather(item.weather[0].main)}
